@@ -29,6 +29,7 @@
   - `NOKIACHAT_API_KEY`：塞班端请求头 `X-Api-Key` 的值
   - `NAPCAT_HTTP_BASE`：Napcat OneBot v11 HTTP API 基地址
   - `NAPCAT_WS_EVENTS`：Napcat OneBot v11 事件 WebSocket 地址
+  - `NAPCAT_ACCESS_TOKEN`：如果 Napcat 网络配置里设置了 Token，这里填同一个（服务端会用 `Authorization: Bearer ...` 调用 Napcat）
 
 ### 启动
 
@@ -68,4 +69,3 @@
 2) 增量更新：塞班端保存 `last_msg_id`，使用 `after_id` 拉新消息；定时刷新未读数
 3) 更好的 UI：多 view（主菜单/会话列表/会话详情），增加 Options 菜单（刷新/发送/保存图）
 4) 安全：把 HTTP 改成 HTTPS（注意 S60 TLS 兼容性），或走自建隧道/反代
-

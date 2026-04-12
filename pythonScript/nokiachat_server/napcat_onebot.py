@@ -12,9 +12,12 @@ class NapcatOneBotClient:
       - "group:<qq>"  group chat
     """
 
-    def __init__(self, http_base: str) -> None:
+    def __init__(self, http_base: str, access_token: str | None = None) -> None:
         self._http_base = http_base.rstrip("/")
-        self._client = httpx.AsyncClient(timeout=10.0)
+        headers = {}
+        if access_token:
+            headers["Authorization"] = f"Bearer {access_token}"
+        self._client = httpx.AsyncClient(timeout=10.0, headers=headers)
 
     async def aclose(self) -> None:
         await self._client.aclose()
@@ -39,4 +42,3 @@ class NapcatOneBotClient:
                 f"{self._http_base}/send_group_msg",
                 json={"group_id": qq, "message": text},
             )
-

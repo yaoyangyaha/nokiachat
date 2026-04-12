@@ -29,10 +29,20 @@ def _extract_text(message: Any) -> str:
     return ""
 
 
-async def run_napcat_event_listener(db: NokiachatDb, ws_url: str) -> None:
+async def run_napcat_event_listener(
+    db: NokiachatDb, ws_url: str, access_token: str | None = None
+) -> None:
     while True:
         try:
-            async with websockets.connect(ws_url, ping_interval=20, ping_timeout=20) as ws:
+            extra_headers = None
+            if access_token:
+                extra_headers = [("Authorization", f"Bearer {access_token}")]
+            async with websockets.connect(
+                ws_url,
+                ping_interval=20,
+                ping_timeout=20,
+                extra_headers=extra_headers,
+            ) as ws:
                 async for raw in ws:
                     try:
                         evt = json.loads(raw)
@@ -77,4 +87,3 @@ async def run_napcat_event_listener(db: NokiachatDb, ws_url: str) -> None:
                     )
         except Exception:
             await asyncio.sleep(3)
-

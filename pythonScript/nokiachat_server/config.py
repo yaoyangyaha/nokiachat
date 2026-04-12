@@ -18,3 +18,7 @@ def napcat_ws_events() -> str | None:
     v = os.environ.get("NAPCAT_WS_EVENTS", "").strip()
     return v or None
 
+
+def napcat_access_token() -> str | None:
+    v = os.environ.get("NAPCAT_ACCESS_TOKEN", "").strip()
+    return v or None

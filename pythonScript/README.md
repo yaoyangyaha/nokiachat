@@ -25,3 +25,5 @@
 认证：
 - 所有 `/v1/*` 需要请求头 `X-Api-Key: <NOKIACHAT_API_KEY>`
 
+Napcat 鉴权：
+- 如果你在 Napcat 的网络配置里设置了 `Token`，则需要在 `.env` 里填写 `NAPCAT_ACCESS_TOKEN`。

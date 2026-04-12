@@ -20,13 +20,14 @@ def create_app() -> FastAPI:
     db = NokiachatDb(config.db_path())
     napcat_http = config.napcat_http_base()
     napcat_ws = config.napcat_ws_events()
-    napcat_client = NapcatOneBotClient(napcat_http) if napcat_http else None
+    napcat_token = config.napcat_access_token()
+    napcat_client = NapcatOneBotClient(napcat_http, napcat_token) if napcat_http else None
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
         task = None
         if napcat_ws:
-            task = asyncio.create_task(run_napcat_event_listener(db, napcat_ws))
+            task = asyncio.create_task(run_napcat_event_listener(db, napcat_ws, napcat_token))
         try:
             yield
         finally:
@@ -110,4 +111,3 @@ def create_app() -> FastAPI:
         return Response("ok\n", media_type="text/plain")
 
     return app
-

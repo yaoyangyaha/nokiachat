@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : NokiachatContainer.l99
+ Author      : yaoyangyaha
+ Copyright   : copyright yaoyangyaha 2026
+ Description : 
+========================================================================
+*/
+// localized strings for language: (Other)
+#define STR_NokiachatContainerView_1 ""
+#define STR_NokiachatContainerView_2 ""
+#define STR_NokiachatContainerView_3 "NokiachatContainer"

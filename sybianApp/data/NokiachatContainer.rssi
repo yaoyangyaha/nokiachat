@@ -1,0 +1,35 @@
+/*
+========================================================================
+ Name        : NokiachatContainer.rssi
+ Author      : yaoyangyaha
+ Copyright   : copyright yaoyangyaha 2026
+ Description : 
+========================================================================
+*/
+#include "NokiachatContainer.loc"
+
+RESOURCE AVKON_VIEW r_nokiachat_container_nokiachat_container_view
+	{
+	cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+	menubar = r_nokiachat_container_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_nokiachat_container_options_menu
+	{
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_nokiachat_container_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_nokiachat_container_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_nokiachat_container_title_resource
+	{
+	txt = STR_NokiachatContainerView_3;
+	}

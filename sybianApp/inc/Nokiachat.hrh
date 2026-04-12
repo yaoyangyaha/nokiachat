@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : Nokiachat.hrh
+ Author      : yaoyangyaha
+ Copyright   : copyright yaoyangyaha 2026
+ Description : 
+========================================================================
+*/
+enum TNokiachatViewUids
+	{
+	ENokiachatContainerViewId = 1
+	};

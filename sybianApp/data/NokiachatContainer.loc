@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : NokiachatContainer.loc
+ Author      : yaoyangyaha
+ Copyright   : copyright yaoyangyaha 2026
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_99
+#include "NokiachatContainer.l99"
+#endif

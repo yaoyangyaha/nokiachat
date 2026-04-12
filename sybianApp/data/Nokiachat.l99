@@ -1,0 +1,13 @@
+/*
+========================================================================
+ Name        : Nokiachat.l99
+ Author      : yaoyangyaha
+ Copyright   : copyright yaoyangyaha 2026
+ Description : 
+========================================================================
+*/
+// localized strings for language: (Other)
+#define STR_NokiachatApplication_3 "Nokiachat"
+#define STR_NokiachatApplication_4 "Nokiachat"
+#define STR_NokiachatApplication_1 ""
+#define STR_NokiachatApplication_2 ""

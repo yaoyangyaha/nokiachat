@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-4P1UOGA</Machine>
+    <WindowsUser>DELL</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b21875ab-0a6c-4c39-acc3-998260b41a25</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DELL</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.exe">
+      <PackagePath>Nokia Chat.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.xr.xml">
+      <PackagePath>Nokia Chat.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\ConversationsPage.xbf">
+      <PackagePath>ConversationsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\MessagesPage.xbf">
+      <PackagePath>MessagesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

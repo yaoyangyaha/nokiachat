@@ -6,7 +6,6 @@ from nokiachat_server.api import create_app
 
 
 def _load_dotenv_if_present() -> None:
-    # Very small dotenv loader to avoid extra dependencies on server.
     env_path = os.path.join(os.path.dirname(__file__), ".env")
     if not os.path.exists(env_path):
         return

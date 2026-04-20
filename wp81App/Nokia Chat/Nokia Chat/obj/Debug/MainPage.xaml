@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="Nokia_Chat.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nokia_Chat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="24,24,24,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,24">
+            <TextBlock Text="服务器设置" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,12"/>
+
+            <TextBlock Text="服务器 (域名或IP)" Margin="0,0,0,4"/>
+            <TextBox x:Name="ServerTextBox" PlaceholderText="例如 1.1.1.1" />
+
+            <TextBlock Text="端口" Margin="0,12,0,4"/>
+            <TextBox x:Name="PortTextBox" PlaceholderText="例如 1145"/>
+
+            <TextBlock Text="API Key" Margin="0,12,0,4"/>
+            <TextBox x:Name="ApiKeyTextBox" PlaceholderText="与服务端 NOKIACHAT_API_KEY 一致"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                <Button x:ConnectionId='3' Content="保存"                          Margin="0,0,12,0"/>
+                <Button x:ConnectionId='4' Content="测试连接"                         />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="消息入口" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,12"/>
+            <Button x:ConnectionId='1' Content="微信消息（未实现）"                            Margin="0,0,0,12"/>
+            <Button x:ConnectionId='2' Content="QQ消息"                       />
+            <TextBlock x:Name="StatusTextBlock" Margin="0,16,0,0" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

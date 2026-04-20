@@ -9,8 +9,8 @@
 #define NOKIACHAT_PROTO_H
 
 // Edit these for your server
-_LIT( KDefaultServerBase, "http://127.0.0.1:8000" );
-_LIT( KDefaultApiKey, "change-me" );
+_LIT( KDefaultServerBase, "http://pve.xtiantech.cn:10643" );
+_LIT( KDefaultApiKey, "xtiantech666NOKIACHAT" );
 
 #endif // NOKIACHAT_PROTO_H
 

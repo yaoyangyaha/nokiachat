@@ -1,0 +1,42 @@
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\App.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\ConversationsPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\MainPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\MessagesPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.xr.xml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.exe
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.pdb
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\resources.pri
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\AppxManifest.xml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\bin\Debug\Nokia Chat.build.appxrecipe
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\App.g.i.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\App.g.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\ConversationsPage.g.i.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\ConversationsPage.g.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MainPage.g.i.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MainPage.g.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MessagesPage.g.i.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MessagesPage.g.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\XamlTypeInfo.g.cs
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\App.xaml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\ConversationsPage.xaml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MessagesPage.xaml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\App.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\ConversationsPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MessagesPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\XamlSaveStateFile.xml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MainPage.xaml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MainPage.xbf
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\Nokia Chat.exe
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\Nokia Chat.pdb
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\priconfig.xml
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\priconfig.xml.intermediate
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\layout.resfiles
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\layout.resfiles.intermediate
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\resources.resfiles
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\resources.resfiles.intermediate
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\pri.resfiles
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\pri.resfiles.intermediate
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\qualifiers.txt
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\qualifiers.txt.intermediate
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\code\S60V3FP1\nokiachat\wp81App\Nokia Chat\Nokia Chat\obj\Debug\ProjectArchitectures.txt

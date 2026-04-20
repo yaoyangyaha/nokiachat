@@ -24,6 +24,7 @@
 #include <utf.h>
 #include <aknnotewrappers.h>
 #include <aknquerydialog.h>
+#include <avkon.rsg>
 
 #include "NokiachatProto.h"
 

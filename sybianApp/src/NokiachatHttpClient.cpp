@@ -124,7 +124,7 @@ void CNokiachatHttpClient::OpenConnectionL()
 		THTTPHdrVal( iSocketServ.Handle() ) );
 	connInfo.SetPropertyL(
 		strPool.StringF( HTTP::EHttpSocketConnection, RHTTPSession::GetTable() ),
-		THTTPHdrVal( iConnection.Handle() ) );
+		THTTPHdrVal( iConnection.SubSessionHandle() ) );
 
 	iConnected = ETrue;
 	}

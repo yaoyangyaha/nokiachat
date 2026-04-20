@@ -15,8 +15,13 @@
 
 #include <e32base.h>
 #include <eiklbo.h>
+#include <avkon.rsg>
 
 #include "NokiachatHttpClient.h"
+
+#ifndef R_AVKON_DIALOG_QUERY_VALUE
+#define R_AVKON_DIALOG_QUERY_VALUE R_AVKON_DIALOG_QUERY_VALUE_TEXT
+#endif
 
 // [[[ begin [Event Handler Includes]
 // ]]] end [Event Handler Includes]
@@ -26,7 +31,6 @@ class MEikCommandObserver;
 // ]]] end generated region [Generated Forward Declarations]
 
 class CAknSingleStyleListBox;
-class CDesCArrayFlat;
 
 /**
  * Container class for NokiachatContainer

@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Nokia_Chat.ConversationsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nokia_Chat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.TopAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='1' Label="刷新"                             Icon="Sync"/>
+        </CommandBar>
+    </Page.TopAppBar>
+
+    <Grid>
+        <ListView x:ConnectionId='2' x:Name="ConversationsListView" IsItemClickEnabled="True"                                            >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="12,8">
+                        <TextBlock Text="{Binding TitleText}" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <TextBlock Text="{Binding PreviewText}" Opacity="0.7" TextTrimming="CharacterEllipsis"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
+
